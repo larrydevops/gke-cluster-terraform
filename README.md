@@ -7,6 +7,7 @@ Create, Configure and Manage a GKE Cluster with Terraform 0.12
 $ terraform init
 terraform plan
 terraform apply
+
 ```
 
 ## Launch sample demo website
