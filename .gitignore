@@ -1,0 +1,29 @@
+# OSX leaves these everywhere on SMB shares
+._*
+
+# OSX trash
+.DS_Store
+
+# Vscode files
+.vscode
+
+# User cluster configs
+.kubeconfig
+
+.tags*
+
+# Version file for dockerized build
+.dockerized-kube-version-defs
+
+# Test artifacts produced by Jenkins jobs
+/_artifacts/
+
+# Go dependencies installed on Jenkins
+/_gopath/
+
+# Config directories created by gcloud and gsutil on Jenkins
+/.config/gcloud*/
+/.gsutil/
+
+# make-related metadata
+/.make/
